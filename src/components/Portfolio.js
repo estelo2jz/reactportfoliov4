@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Logo from "../logo/logo3.png";
+import Back from "../images/back.jpeg";
 
 
 export default class Portfolio extends Component {
@@ -10,7 +11,7 @@ export default class Portfolio extends Component {
           <h1>Portfolio</h1>
           <div className="portfolio__main">
             <div className="portfolio__left">
-              <img src={Logo} alt="dashboard" className="portfolio__img" />
+              <img src={Back} alt="dashboard" className="portfolio__img" />
             </div>
             <div className="portfolio__right">
               <h2>Portfolio V1</h2>
