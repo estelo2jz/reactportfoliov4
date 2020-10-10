@@ -75,7 +75,7 @@
 @media screen and (max-width: 1000px) {
   .services {
     .services__container {
-      h2 {
+      h1 {
 
       }
       .services__grid {
@@ -122,14 +122,23 @@
 @media screen and (max-width: 468px) {
   .services {
     .services__container {
-      h2 {
-
+      padding-top: 100px;
+      padding-bottom: 160px;
+      padding-left: 16px;
+      h1 {
+        margin-bottom: 160px;
+        text-align: center;
+        
       }
       .services__grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 900px;
         .services__left {
+          padding: 0 24px;
           .services__content {
+            margin-top: 40px;
             img {
-
+              margin-right: 16px;
             }
             .services__desc {
               h2 {
@@ -150,10 +159,10 @@
     }
     .yellow__bar {
       image {
-
+        margin: 0 20px;
       }
       p {
-
+        margin-right: 20px;
       }
       span {
         

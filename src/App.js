@@ -3,6 +3,7 @@ import logo from '../src/logo/logo3.png';
 import Home from "./components/Home";
 import About from "./components/About";
 import Services from "./components/Services";
+import Portfolio from "./components/Portfolio";
 import '../src/styles/main.scss';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Home />
       <About />
       <Services />
+      <Portfolio />
     </div>
   );
 }
