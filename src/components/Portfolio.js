@@ -23,13 +23,19 @@ export default class Portfolio extends Component {
           </div>
           <div className="portfolio__projects">
             <a href="https://estelo.net/" target="_blank">
-              <img src={Logo} alt="portfolio" className="portfolio__img" />
+              <div className="portfolio__items">
+                <h1>Portfolio V1</h1>
+              </div>
             </a>
-            <a href="https://estelo.net/" target="_blank">
-              <img src={Logo} alt="portfolio" className="portfolio__img" />
+            <a href="https://esteloportfoliov2.netlify.app/#project" target="_blank">
+              <div className="portfolio__items">
+                <h1>Portfolio V2</h1>
+              </div>
             </a>
-            <a href="https://estelo.net/" target="_blank">
-              <img src={Logo} alt="portfolio" className="portfolio__img" />
+            <a href="https://app.netlify.com/sites/esteloportfoliov3/overview" target="_blank">
+              <div className="portfolio__items">
+                <h1>Portfolio V3</h1>
+              </div>
             </a>
           </div>
         </div>
