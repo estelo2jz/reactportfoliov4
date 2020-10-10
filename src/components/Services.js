@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import Macbook from '../images/macbook.jpeg';
+import Macbook from '../images/keys2.jpeg';
 import Logo from "../logo/logo3.png";
+import Devlogo from "../logo/dev.png";
+import HNDlogo from "../logo/hnd.png";
+import Basiclogo from "../logo/logoshinebasic.png";
 
 import { AiTwotoneMail } from 'react-icons/ai';
 
@@ -13,9 +16,9 @@ export default class Services extends Component {
           <div className="services__grid">
             <div className="services__left">
               <div className="services__content">
-                <img src={Logo} alt="logo" />
+                <img src={Devlogo} alt="logo" />
                 <div className="services__desc">
-                  <h2>UX Strategy</h2>
+                  <h2>Web Development</h2>
                   <p>
                     lorem ipsum, dolor sit amet consectetur adispisicing elit,
                     Quibusadan voulttes deignissionmos accusamus est alies
@@ -24,24 +27,21 @@ export default class Services extends Component {
                 </div>
               </div>
               <div className="services__content">
-                <img src={Logo} alt="logo" />
+                <img src={HNDlogo} alt="logo" />
                 <div className="services__desc">
-                  <h2>UX Strategy</h2>
+                  <h2>Hosting / Domain</h2>
                   <p>
-                    lorem ipsum, dolor sit amet consectetur adispisicing elit,
-                    Quibusadan voulttes deignissionmos accusamus est alies
-                    reprehnedenrit!
+                    These are the Hosting and Domain services that I use for my applications Namecheap, EasyWP, Heroku, Netlify.
                   </p>
+                  <a href=""></a>
                 </div>
               </div>
               <div className="services__content">
-                <img src={Logo} alt="logo"  />
+                <img src={Basiclogo} alt="logo"  />
                 <div className="services__desc">
-                  <h2>UX Strategy</h2>
+                  <h2>Logo Design</h2>
                   <p>
-                    lorem ipsum, dolor sit amet consectetur adispisicing elit,
-                    Quibusadan voulttes deignissionmos accusamus est alies
-                    reprehnedenrit!
+                    Random logo's that I design.
                   </p>
                 </div>
               </div>

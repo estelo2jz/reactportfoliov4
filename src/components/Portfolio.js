@@ -22,9 +22,15 @@ export default class Portfolio extends Component {
             </div>
           </div>
           <div className="portfolio__projects">
-            <img src={Logo} alt="portfolio" className="portfolio__img" />
-            <img src={Logo} alt="portfolio" className="portfolio__img" />
-            <img src={Logo} alt="portfolio" className="portfolio__img" />
+            <a href="https://estelo.net/" target="_blank">
+              <img src={Logo} alt="portfolio" className="portfolio__img" />
+            </a>
+            <a href="https://estelo.net/" target="_blank">
+              <img src={Logo} alt="portfolio" className="portfolio__img" />
+            </a>
+            <a href="https://estelo.net/" target="_blank">
+              <img src={Logo} alt="portfolio" className="portfolio__img" />
+            </a>
           </div>
         </div>
       </div>

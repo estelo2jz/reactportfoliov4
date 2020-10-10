@@ -1,7 +1,7 @@
 .contact {
   display: flex;
   align-items: center;
-  background: #002ed0;
+  // background: #ae0404db;
   padding: 100px 0;
   .contact__bar {
     background: yellow;
@@ -17,6 +17,8 @@
     p {
       margin-right: 40px;
       font-weight: 700;
+      font-size: 20px;
+
     }
     span {
       margin-right: 40px;

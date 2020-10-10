@@ -1,6 +1,6 @@
 .main__section {
   padding: 60px 60px;
-  background: #002ed0;
+  // background: #ae0404db;
   columns: #fff;
   .main__container {
     display: flex;
@@ -32,6 +32,7 @@
         p {
           line-height: 2.3;
           color: #fff;
+          font-size: 20px;
         }
       }
       .main__image {
@@ -40,6 +41,7 @@
         .main__img {
           width: 450px;
           height: 610px;
+          border-radius: 5px;
         }
       }
     }

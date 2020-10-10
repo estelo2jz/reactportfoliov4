@@ -1,7 +1,8 @@
 .services {
-  background: #002ed0;
+  // background: #ae0404db;
   color: #fff;
   position: relative;
+  height: 100%;
   .services__container {
     background: #000;
     padding-top: 100px;
@@ -34,14 +35,18 @@
             }
             p {
               line-height: 2;
+
+
             }
           }
         }
       }
       .services__right {
+        overflow: hidden;
         .macbook {
-          height: 700px;
-          width: 100%;
+          background-position: center;
+          background-size: cover;
+          border-radius: 5px;
         }
       }
     }

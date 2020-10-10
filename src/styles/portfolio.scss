@@ -1,5 +1,5 @@
 .portfolio {
-  background: #002ed0;
+  // background: #ae0404db;
   color: #fff;
   .portfolio__container {
     padding-top: 100px;
@@ -23,7 +23,9 @@
         align-content: center;
         .portfolio__img {
           width: 100%;
-          // height: 100%;
+          height: 100%;
+          border-radius: 5px;
+
         }
       }
       .portfolio__right {
