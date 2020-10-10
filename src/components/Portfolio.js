@@ -14,17 +14,17 @@ export default class Portfolio extends Component {
               <img src={Back} alt="dashboard" className="portfolio__img" />
             </div>
             <div className="portfolio__right">
-              <h2>Portfolio V1</h2>
+              <h2>As a Web Development</h2>
               <p>
                 First portfolio that I build using HTML/SCSS/JavaScript/React/CMS with the help of my mentor, includes a list of my projects.
               </p>
-              <a href="https://estelo.net/" target="_blank">Explore Me!</a>
+              <a href="https://estelo.net/" target="_blank">Explore</a>
             </div>
           </div>
           <div className="portfolio__projects">
-            <img src={Logo} alt="portfolio" />
-            <img src={Logo} alt="portfolio" />
-            <img src={Logo} alt="portfolio" />
+            <img src={Logo} alt="portfolio" className="portfolio__img" />
+            <img src={Logo} alt="portfolio" className="portfolio__img" />
+            <img src={Logo} alt="portfolio" className="portfolio__img" />
           </div>
         </div>
       </div>

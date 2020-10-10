@@ -1,0 +1,27 @@
+.contact {
+  display: flex;
+  align-items: center;
+  background: #002ed0;
+  padding: 100px 0;
+  .contact__bar {
+    background: yellow;
+    height: 80px;
+    width: 68%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #000;
+    image {
+      margin-right: 40px;
+    }
+    p {
+      
+    }
+    span {
+
+    }
+  }
+  h1 {
+
+  }
+}
