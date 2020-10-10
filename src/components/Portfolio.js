@@ -13,13 +13,13 @@ export default class Portfolio extends Component {
             <div className="portfolio__left">
               <img src={Back} alt="dashboard" className="portfolio__img" />
             </div>
-            <div className="portfolio__right">
+            {/* <div className="portfolio__right">
               <h2>As a Web Development</h2>
               <p>
                 First portfolio that I build using HTML/SCSS/JavaScript/React/CMS with the help of my mentor, includes a list of my projects.
               </p>
               <a href="https://estelo.net/" target="_blank">Explore</a>
-            </div>
+            </div> */}
           </div>
           <div className="portfolio__projects">
             <a href="https://estelo.net/" target="_blank">
@@ -32,7 +32,7 @@ export default class Portfolio extends Component {
                 <h1>Portfolio V2</h1>
               </div>
             </a>
-            <a href="https://app.netlify.com/sites/esteloportfoliov3/overview" target="_blank">
+            <a href="https://esteloportfoliov3.netlify.app/" target="_blank">
               <div className="portfolio__items">
                 <h1>Portfolio V3</h1>
               </div>

@@ -31,6 +31,36 @@
   }
 }
 
+.about-social-links {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+
+  padding: 10px;
+  margin: 2%;
+}
+
+.about-social-animation {
+  animation: rotation 8s infinite linear;
+
+  a {
+    color: white;
+    font-size: 3em;
+    width: 100%;
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
 
 @media screen and (max-width: 768px) {
   .footer {

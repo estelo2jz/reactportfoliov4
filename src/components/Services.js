@@ -20,9 +20,8 @@ export default class Services extends Component {
                 <div className="services__desc">
                   <h2>Web Development</h2>
                   <p>
-                    lorem ipsum, dolor sit amet consectetur adispisicing elit,
-                    Quibusadan voulttes deignissionmos accusamus est alies
-                    reprehnedenrit!
+                  I'm a tech enthusiast passionate in codes. I design, build web applications. 
+                  Innovative Front-End Web Developer with 2 years of experience in building and implementing websites.
                   </p>
                 </div>
               </div>
@@ -55,7 +54,9 @@ export default class Services extends Component {
           <image>
             <AiTwotoneMail />
           </image>
-          <p>Email</p>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=email@domain.com" target="_blank">
+            <p>Email</p>
+          </a>
           <span>estelo2jz@gmail.com</span>
         </div>
       </div>
