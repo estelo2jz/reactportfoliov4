@@ -44,7 +44,7 @@ export default class Portfolio extends Component {
       <div className="portfolio">
         <div className="portfolio__container">
           <h1>Portfolio's</h1>
-            <h2>Projects</h2>
+          <h2>Projects</h2>
           <div className="portfolio__main">
             <div className="portfolio__left">
               <div className="portfolio__project__container">
