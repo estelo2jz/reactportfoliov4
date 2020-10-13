@@ -9,7 +9,7 @@ export default class Home extends Component {
         <div className="hero__wrapper">
           <div className="column__left">
             <span>
-              V4 - Estelo Abellanosa
+              v4 - Estelo Abellanosa
               <img src={Picme2} alt="logo" className="main__img" />
             </span>
             <h1>Front-End Web Developer</h1>
