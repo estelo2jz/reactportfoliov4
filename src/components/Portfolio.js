@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Logo from "../logo/logo3.png";
 import Back from "../images/back.jpeg";
+import Pv1 from "../logo/pv1.png";
+import Pv2 from "../logo/pv2.png";
+import Pv3 from "../logo/pv3.png";
 
 
 export default class Portfolio extends Component {
@@ -8,35 +11,111 @@ export default class Portfolio extends Component {
     return (
       <div className="portfolio">
         <div className="portfolio__container">
-          <h1>Portfolio</h1>
+          <h1>Portfolio's</h1>
+            <h2>Projects</h2>
           <div className="portfolio__main">
             <div className="portfolio__left">
-              <img src={Back} alt="dashboard" className="portfolio__img" />
+              <div className="portfolio__project__container">
+                <div className="portfolio__project">
+                  <a href="">
+                    link me
+                  </a>
+                  <img src={Back} alt="dashboard" className="portfolio__img" />
+                </div>
+                <div className="portfolio__project">
+                  <a href="">
+                    link me
+                  </a>
+                  <img src={Back} alt="dashboard" className="portfolio__img" />
+                </div>
+                <div className="portfolio__project">
+                  <a href="">
+                    link me
+                  </a>
+                  <img src={Back} alt="dashboard" className="portfolio__img" />
+                </div>
+                <div className="portfolio__project">
+                  <a href="">
+                    link me
+                  </a>
+                  <img src={Back} alt="dashboard" className="portfolio__img" />
+                </div>
+                <div className="portfolio__project">
+                  <a href="">
+                    link me
+                  </a>
+                  <img src={Back} alt="dashboard" className="portfolio__img" />
+                </div>
+                <div className="portfolio__project">
+                  <a href="">
+                    link me
+                  </a>
+                  <img src={Back} alt="dashboard" className="portfolio__img" />
+                </div>
+                <div className="portfolio__project">
+                  <a href="">
+                    link me
+                  </a>
+                  <img src={Back} alt="dashboard" className="portfolio__img" />
+                </div>
+                <div className="portfolio__project">
+                  <a href="">
+                    link me
+                  </a>
+                  <img src={Back} alt="dashboard" className="portfolio__img" />
+                </div>
+                <div className="portfolio__project">
+                  <a href="">
+                    link me
+                  </a>
+                  <img src={Back} alt="dashboard" className="portfolio__img" />
+                </div>
+                <div className="portfolio__project">
+                  <a href="">
+                    link me
+                  </a>
+                  <img src={Back} alt="dashboard" className="portfolio__img" />
+                </div>
+                <div className="portfolio__project">
+                  <a href="">
+                    link me
+                  </a>
+                  <img src={Back} alt="dashboard" className="portfolio__img" />
+                </div>
+                <div className="portfolio__project">
+                  <a href="">
+                    link me
+                  </a>
+                  <img src={Back} alt="dashboard" className="portfolio__img" />
+                </div>
+                
+
+              </div>
             </div>
-            {/* <div className="portfolio__right">
-              <h2>As a Web Development</h2>
+            <div className="portfolio__right">
+              <h2>As a Web Developer</h2>
               <p>
-                First portfolio that I build using HTML/SCSS/JavaScript/React/CMS with the help of my mentor, includes a list of my projects.
+                I am able to build various web applications throught that i build from scratch and some that i implemented.
               </p>
-              <a href="https://estelo.net/" target="_blank">Explore</a>
-            </div> */}
+              <a href="https://estelo.net/" target="_blank">Explore my other portoflio's</a>
+            </div>
           </div>
           <div className="portfolio__projects">
-            <a href="https://estelo.net/" target="_blank">
               <div className="portfolio__items">
-                <h1>Portfolio V1</h1>
+                <a href="https://estelo.net/" target="_blank">
+                  <img className="portfolio__image" src={Pv1} />
+                </a>
               </div>
-            </a>
-            <a href="https://esteloportfoliov2.netlify.app/#project" target="_blank">
               <div className="portfolio__items">
-                <h1>Portfolio V2</h1>
+                <a href="https://esteloportfoliov2.netlify.app/#project" target="_blank">
+                <img src={Pv2} />
+                </a>
               </div>
-            </a>
-            <a href="https://esteloportfoliov3.netlify.app/" target="_blank">
               <div className="portfolio__items">
-                <h1>Portfolio V3</h1>
+                <a href="https://esteloportfoliov3.netlify.app/" target="_blank">
+                  <img src={Pv3} />
+                </a>
               </div>
-            </a>
           </div>
         </div>
       </div>
