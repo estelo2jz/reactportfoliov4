@@ -10,7 +10,7 @@ export default class Footer extends Component {
     return (
       <div className="footer">
         <div className="footer__container">
-          <div className="footer-left">
+          <div className="footer__left">
             <h2>Estelo Abellanosa</h2>
             <p>
               Front-End Web Developer

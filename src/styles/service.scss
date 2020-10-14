@@ -8,9 +8,15 @@
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 60px;
+    font-family: 'MuseoModerno', cursive;
+    
     h1 {
       font-size: 50px;
-    }
+      padding: 10px;
+      font-family: 'Sansita Swashed', cursive;
+
+
+    }   
     .services__grid {
       display: grid;
       grid-template-columns: 2fr 1fr;
@@ -20,9 +26,11 @@
         flex-direction: column;
         justify-content: space-evenly;
         padding: 0 50px;
+        height: 100%;
         .services__content {
           display: flex;
           align-items: flex-start;
+          padding: 10px;
           img {
             width: 130px;
             margin-right: 50px;
@@ -32,6 +40,7 @@
               font-size: 16px;
               text-transform: uppercase;
               margin-bottom: 16px;
+              font-family: 'MuseoModerno', cursive;
             }
             p {
               line-height: 2;
@@ -62,7 +71,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
+    font-family: 'MuseoModerno', cursive;
     image {
       margin: 0 40px;
       font-size: 50px;
@@ -70,7 +79,6 @@
     p {
       margin-right: 40px;
       font-size: 700;
-      text-transform: uppercase;
     }
     span {
 

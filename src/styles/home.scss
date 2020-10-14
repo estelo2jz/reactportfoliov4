@@ -7,6 +7,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 820px;
+    font-family: 'MuseoModerno', cursive;
     .column__left {
       display: flex;
       flex-direction: column;
@@ -26,6 +27,8 @@
         justify-content: center;
         justify-content: center;
         align-items: center;
+        font-family: 'Sansita Swashed', cursive;
+
       }
       .main__img {
         width: 60px;

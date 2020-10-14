@@ -5,12 +5,15 @@
     padding: 60px;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    
     .footer__left {
       display: flex;
       flex-direction: column;
+      font-family: 'MuseoModerno', cursive;
       
       h2 {
         margin-bottom: 24px;
+        
       }
       p {
         line-height: 2;
