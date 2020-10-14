@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import {PortfolioItems} from "./PortfolioItems";
+import { FaExternalLinkSquareAlt } from 'react-icons/fa';
 import Logo from "../logo/logo3.png";
 import Back from "../images/back.jpeg";
 import Pv1 from "../logo/pv1.png";
@@ -65,15 +67,40 @@ export default class Portfolio extends Component {
               </div>
           </div>
           </div>
-          <h2>Projects</h2>
+          <h2>Project</h2>
           <div className="portfolio__main">
             <div className="portfolio__left">
               <div className="portfolio__project__container">
                 <div className="portfolio__project">
-                  <a href="https://topcompanyv2.netlify.app/" target="_blank">
-                    Top Company Cultures
-                  </a>
-                  <img src={Companylogo} alt="dashboard" className="portfolio__img" />
+                  {PortfolioItems.map((item, index) => {
+                    return (
+                      <div className="portfolioitems__container">
+                        <div key={index} className="portfolio__url-container">
+                          <a className={item.cName} href={item.url} target="_blank">
+                            {item.title}
+                          </a>
+                          <p>
+                            <FaExternalLinkSquareAlt />
+                          </p>
+                        </div>
+                        <div className="portfolio__image__container">
+                          <image>
+                            {item.portfolioImage}
+                          </image>
+                        </div>
+                      </div>
+                    )
+                  })}
+                </div>
+                {/* <div className="portfolio__project">
+                  <div className="portfolio__link__container">
+                    <a href="https://topcompanyv2.netlify.app/" target="_blank">
+                      Top Company Cultures
+                    </a>
+                  </div>
+                  <div className="portfolio__image__container">
+                    <img src={Companylogo} alt="dashboard" className="portfolio__img" />
+                  </div>
                 </div>
                 <div className="portfolio__project">
                   <a href="https://icydiamond.netlify.app/" target="_blank">
@@ -172,33 +199,9 @@ export default class Portfolio extends Component {
                     Svelte Razor
                   </a>
                   <img src={Razorlogo} alt="dashboard" className="portfolio__img" />
-                </div>
+                </div> */}
               </div>
             </div>
-            {/* <div className="portfolio__right">
-              <h2>As a Web Developer</h2>
-              <p>
-                I am able to build various web applications that i build from scratch and some that i implemented.
-              </p>
-              <a href="https://estelo.net/" target="_blank">Explore my other portoflio's</a>
-            </div> */}
-          {/* <div className="portfolio__projects">
-              <div className="portfolio__items">
-                <a href="https://estelo.net/" target="_blank">
-                  <img className="portfolio__image" src={Pv1} />
-                </a>
-              </div>
-              <div className="portfolio__items">
-                <a href="https://esteloportfoliov2.netlify.app/#project" target="_blank">
-                <img src={Pv2} />
-                </a>
-              </div>
-              <div className="portfolio__items">
-                <a href="https://esteloportfoliov3.netlify.app/" target="_blank">
-                  <img src={Pv3} />
-                </a>
-              </div>
-          </div> */}
           </div>
         </div>
       </div>
