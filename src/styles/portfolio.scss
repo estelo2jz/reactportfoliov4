@@ -8,9 +8,12 @@
     height: 100%;
     .portfolio__portfolio__container {
       display: flex;
-            // justify-content: center;
-        align-items: center;
-        align-content: center;
+      // justify-content: center;
+      align-items: center;
+      align-content: center;
+      h1 {
+        font-family: 'Sansita Swashed', cursive;
+      }
 
       .portfolio__projects {
         display: flex;
@@ -25,6 +28,7 @@
           h1 {
             font-size: 3em;
             width: 100%;
+            
 
           }
         }
@@ -115,11 +119,11 @@
                 a {
                   text-decoration: none;
                   color: white;
-                  font-size: 1.1em;
+                  font-size: 1.2em;
                   width: 100%;
                   padding: 0;
                   margin: 0;
-                  font-family: 'MuseoModerno', cursive;
+                  font-family: 'Source Sans Pro', sans-serif;
                 }
                 p {
                   padding: 5px;
