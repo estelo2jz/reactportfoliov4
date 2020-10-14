@@ -13,7 +13,9 @@ export default class Home extends Component {
               <img src={Picme2} alt="logo" className="main__img" />
             </span>
             <h1>Front-End Web Developer</h1>
-            <p>I have 2 years of experience as a web developer. I'm a tech enthusiast passionate in codes. I design, build web applications, and I'm currently looking for new opportunity.</p>
+            <p>
+              I have 2 years of experience as a web developer. I'm a tech enthusiast passionate in codes. 
+              I design, build web applications, and I'm currently looking for new opportunities.</p>
           </div>
           <div className="column__right">
             <img src={Logo1} alt="brain" className="hero__img"/>
