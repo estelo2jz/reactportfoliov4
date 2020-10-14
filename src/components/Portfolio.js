@@ -43,7 +43,28 @@ export default class Portfolio extends Component {
     return (
       <div className="portfolio">
         <div className="portfolio__container">
-          <h1>Portfolio's</h1>
+          <div className="portfolio__portfolio__container">
+            <div>
+              <h1>Portfolio's</h1>
+            </div>
+            <div className="portfolio__projects">
+              <div className="portfolio__items">
+                <a href="https://estelo.net/" target="_blank">
+                  <img className="portfolio__image" src={Pv1} />
+                </a>
+              </div>
+              <div className="portfolio__items">
+                <a href="https://esteloportfoliov2.netlify.app/#project" target="_blank">
+                <img src={Pv2} />
+                </a>
+              </div>
+              <div className="portfolio__items">
+                <a href="https://esteloportfoliov3.netlify.app/" target="_blank">
+                  <img src={Pv3} />
+                </a>
+              </div>
+          </div>
+          </div>
           <h2>Projects</h2>
           <div className="portfolio__main">
             <div className="portfolio__left">
@@ -161,8 +182,7 @@ export default class Portfolio extends Component {
               </p>
               <a href="https://estelo.net/" target="_blank">Explore my other portoflio's</a>
             </div> */}
-          </div>
-          <div className="portfolio__projects">
+          {/* <div className="portfolio__projects">
               <div className="portfolio__items">
                 <a href="https://estelo.net/" target="_blank">
                   <img className="portfolio__image" src={Pv1} />
@@ -178,6 +198,7 @@ export default class Portfolio extends Component {
                   <img src={Pv3} />
                 </a>
               </div>
+          </div> */}
           </div>
         </div>
       </div>
