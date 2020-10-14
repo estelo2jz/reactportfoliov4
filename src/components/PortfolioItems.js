@@ -67,7 +67,7 @@ export const PortfolioItems = [
     url: 'https://react-lyricsss.netlify.app/',
   },
   {
-    title: 'Svelte Budget Calc',
+    title: 'Svelte Budget Calculator',
     url: 'https://svelte-budget-app.netlify.app/',
   },
   {
