@@ -10,7 +10,7 @@ import { AiTwotoneMail } from 'react-icons/ai';
 export default class Services extends Component {
   render() {
     return (
-      <div className="services">
+      <div className="services" id="services">
         <div className="services__container">
           <h1>Services</h1>
           <div className="services__grid">

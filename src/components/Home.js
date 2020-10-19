@@ -5,7 +5,7 @@ import Picme2 from "../logo/pic.jpg";
 export default class Home extends Component {
   render() {
     return (
-      <div className="hero__section">
+      <div className="hero__section" id="home">
         <div className="hero__wrapper">
           <div className="column__left">
             <span>

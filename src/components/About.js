@@ -4,7 +4,7 @@ import Picme from "../logo/pic.jpg";
 export default class About extends Component {
   render() {
     return (
-      <div className="main__section">
+      <div className="main__section" id="about">
         <div className="main__container">
           <h1>Hello, I'm Estelo!</h1>
           <div className="main__content">

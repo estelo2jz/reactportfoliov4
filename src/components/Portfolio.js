@@ -43,7 +43,7 @@ import Chineselogo from "../images/companylogo/chinese.png";
 export default class Portfolio extends Component {
   render() {
     return (
-      <div className="portfolio">
+      <div className="portfolio" id="portfolio">
         <div className="portfolio__container">
           <div className="portfolio__portfolio__container">
             <div>

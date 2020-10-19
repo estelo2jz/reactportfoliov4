@@ -5,7 +5,7 @@ import { AiTwotoneMail } from 'react-icons/ai';
 export default class Contact extends Component {
   render() {
     return (
-      <div className="contact">
+      <div className="contact" id="contact">
         <div className="contact__bar">
           <image>
             <AiTwotoneMail />
