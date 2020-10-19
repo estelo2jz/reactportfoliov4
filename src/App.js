@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../src/logo/logo3.png';
 import Nav from './components/Nav';
 import Home from "./components/Home";
 import About from "./components/About";
@@ -16,7 +15,7 @@ function App() {
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header> */}
-      {/* <Nav /> */}
+      <Nav />
       <Home />
       <About />
       <Services />

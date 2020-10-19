@@ -3,7 +3,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 100px;
+  padding: 8px 100px;
   z-index: 1000;
   display: flex;
   justify-content: space-around;
@@ -42,6 +42,7 @@ header ul li a {
   margin: 0 15px;
   color: #fff;
   text-decoration: none;
+  font-size: 2em;
 }
 
 header .sticky ul li a {
@@ -49,4 +50,51 @@ header .sticky ul li a {
 }
 
 @media (max-width: 991px) {
+  header {
+    flex-direction: column;
+    position: sticky;
+    a {
+      // width: 100%;
+      margin: 0;
+      padding: 5px;
+    }
+    .menu {
+      flex-direction: row;
+      li {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 50px;
+    }
+
+    }
+  }
+}
+
+
+@media screen and (max-width: 468px) {
+  header {
+    flex-direction: column;
+    position: sticky;
+    a {
+      padding: 0px;
+      margin: 0;
+    }
+    .menu {
+      
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 50px;
+      padding: 0px;
+
+
+    }
+
+    }
+  }
 }
