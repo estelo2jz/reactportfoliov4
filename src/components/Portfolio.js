@@ -72,7 +72,7 @@ export default class Portfolio extends Component {
             <div className="portfolio__left">
               <div className="portfolio__project__container">
                 <div className="portfolio__project">
-                  {PortfolioItems.map((item, index) => {
+                  {PortfolioItems.map((item, index, props) => {
                     return (
                       <div className="portfolioitems__container">
                         <div key={index} className="portfolio__url-container">
@@ -80,13 +80,15 @@ export default class Portfolio extends Component {
                             {item.title}
                           </a>
                           <p>
-                            <FaExternalLinkSquareAlt />
+                            <a className={item.cName} href={item.url} target="_blank">
+                              <FaExternalLinkSquareAlt />
+                            </a>
                           </p>
                         </div>
                         <div className="portfolio__image__container">
-                          <image>
-                            {item.portfolioImage}
-                          </image>
+                          <img src={item.portfolioImage}>
+                            {/* {item.portfolioImage} */}
+                          </img>
                         </div>
                       </div>
                     )
