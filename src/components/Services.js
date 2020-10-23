@@ -11,7 +11,7 @@ export default class Services extends Component {
   render() {
     return (
       <div className="services" id="services">
-        <div className="services__container">
+        {/* <div className="services__container">
           <h1>Services</h1>
           <div className="services__grid">
             <div className="services__left">
@@ -49,8 +49,8 @@ export default class Services extends Component {
               <img src={Macbook} alt="logo" className="macbook" />
             </div>
           </div>
-        </div>
-        <div className="yellow__bar">
+        </div> */}
+        {/* <div className="yellow__bar">
           <image>
             <AiTwotoneMail />
           </image>
@@ -58,7 +58,7 @@ export default class Services extends Component {
             <p>Email</p>
           </a>
           <span>estelo2jz@gmail.com</span>
-        </div>
+        </div> */}
       </div>
     )
   }
