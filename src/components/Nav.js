@@ -54,7 +54,7 @@ function Navbar() {
            <ul class="menu">
             <li className="nav-text"><a href="#home">Home</a></li>
             <li className="nav-text"><a href="#about">About</a></li>
-            <li className="nav-text"><a href="#services">Services</a></li>
+            {/* <li className="nav-text"><a href="#services">Services</a></li> */}
             <li className="nav-text"><a href="#portfolio">Portfolio</a></li>
             <li className="nav-text"><a href="#contact">Contact</a></li>
            </ul>
