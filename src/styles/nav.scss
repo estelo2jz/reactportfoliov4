@@ -111,7 +111,9 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: rgba(0, 0, 0, 0.356);
+  background: rgba(0, 0, 0, 0.556);
+  scroll-behavior: smooth;
+
 }
 
 .menu-bars {
@@ -135,7 +137,7 @@
 .nav-menu.active {
   left: 0;
   transition: 350ms;
-  background: rgba(0, 0, 0, 0.356);
+  background: rgba(0, 0, 0, 0.556);
 }
 
 .nav-text {
@@ -145,6 +147,11 @@
   padding: 8px 0px 8px 16px;
   list-style: none;
   height: 60px;
+
+  &:hover {
+  background-color: #000000;
+  transition: 0.5s;
+  }
 }
 
 .nav-text a {
@@ -160,8 +167,9 @@
 }
 
 .nav-text a:hover {
-  background-color: #060b26;
-  // padding: 10px;
+  // background-color: #000000;
+  padding: 20px;
+  transition: 0.5s;
 }
 
 .nav-menu-items {
