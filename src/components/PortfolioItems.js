@@ -15,8 +15,21 @@ import Todologo from "../images/companylogo/todo.png";
 import Companylogo from "../images/companylogo/company.png";
 import Breaklogo from "../images/companylogo/break.png";
 import Chineselogo from "../images/companylogo/chinese.png";
+import MovieApilogo from "../images/companylogo/movieapi.png";
+import Argologo from "../images/companylogo/argo.png";
+
 
 export const PortfolioItems = [
+  {
+    title: 'ArgoAmerica',
+    url: 'https://profresh.netlify.app/',
+    portfolioImage: Argologo,
+  },
+  {
+    title: 'Movies API',
+    url: 'https://apimovies.netlify.app/',
+    portfolioImage: MovieApilogo,
+  },
   {
     title: 'Top Company Cultures',
     url: 'https://topcompanyv2.netlify.app/',
